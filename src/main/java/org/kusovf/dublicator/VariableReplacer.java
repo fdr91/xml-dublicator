@@ -1,6 +1,6 @@
-package com.sbt.aep.xml;
+package org.kusovf.dublicator;
 
-import com.sbt.aep.xml.interfaces.Replacer;
+import org.kusovf.dublicator.interfaces.Replacer;
 
 import java.util.*;
 

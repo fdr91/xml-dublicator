@@ -1,8 +1,6 @@
-package com.sbt.aep.xml.sax;
+package org.kusovf.dublicator.sax;
 
-import com.sbt.aep.xml.interfaces.Replacer;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.kusovf.dublicator.interfaces.Replacer;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -12,8 +10,6 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 public class Handler extends DefaultHandler {
-
-    private static final Logger LOGGER = LoggerFactory.getLogger(Handler.class);
     private final OutputStream outputStream;
     private String startTag;
     private String startTagFilled;

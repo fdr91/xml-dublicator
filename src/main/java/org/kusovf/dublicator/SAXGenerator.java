@@ -1,6 +1,6 @@
-package com.sbt.aep.xml;
+package org.kusovf.dublicator;
 
-import com.sbt.aep.xml.sax.Handler;
+import org.kusovf.dublicator.sax.Handler;
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

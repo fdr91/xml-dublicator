@@ -1,9 +1,9 @@
-package com.sbt.aep.sizer.xml;
+package org.kusovf.dublicator.xml;
 
 
 import com.google.common.collect.ImmutableSet;
-import com.sbt.aep.xml.SAXGenerator;
-import com.sbt.aep.xml.Variable;
+import org.kusovf.dublicator.SAXGenerator;
+import org.kusovf.dublicator.Variable;
 import org.junit.Test;
 
 import java.io.ByteArrayInputStream;

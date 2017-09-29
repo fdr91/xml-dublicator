@@ -1,9 +1,5 @@
-package com.sbt.aep.xml;
+package org.kusovf.dublicator;
 
-/**
- * @author Ivan
- * @date 30.09.2017.
- */
 public class Variable {
 
     private final String name;
